@@ -11,6 +11,8 @@ export const Main = () => {
 
   const [search, setSearch] = useState("");
 
+  const [times, setTimes] = useState(0);
+
   const [query, setQuery] = useState("");
 
   const [loading, setLoading] = useState(true);
